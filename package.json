@@ -1,6 +1,6 @@
 {
-  "name": "biggbrains_saas",
-  "author": "Biggbrains",
+  "name": "PSPKA",
+  "author": "pspka",
   "version": "4.0.0",
   "description": "Next.Js & Typescript",
   "private": true,
@@ -33,7 +33,7 @@
     "@fullcalendar/timegrid": "^5.11.3",
     "@fullcalendar/timeline": "^5.11.3",
     "@hookform/resolvers": "^2.9.8",
-    "@iconify/react": "^4.1.1",
+    "@iconify/react": "^4.0.0",
     "@mui/icons-material": "^5.15.18",
     "@mui/lab": "^5.0.0-alpha.103",
     "@mui/material": "^5.10.9",

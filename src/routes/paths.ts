@@ -35,6 +35,8 @@ export const PATH_PAGE = {
   page404: '/404',
   page500: '/500',
   components: '/components',
+  termscondition: '/terms-condition',
+  privacy: '/privacy',
 };
 
 export const PATH_DASHBOARD = {
@@ -55,9 +57,9 @@ export const PATH_DASHBOARD = {
     plans: path(ROOTS_DASHBOARD, '/admin/plans'),
     complaints: path(ROOTS_DASHBOARD, '/admin/complaints'),
     risk: path(ROOTS_DASHBOARD, '/admin/risk'),
-    settings: path(ROOTS_DASHBOARD, '/admin/settings')
+    settings: path(ROOTS_DASHBOARD, '/admin/settings'),
   },
-  
+
   customer: {
     root: path(ROOTS_DASHBOARD, '/customer'),
     recharges: path(ROOTS_DASHBOARD, '/customer/recharges'),
@@ -67,7 +69,7 @@ export const PATH_DASHBOARD = {
     cms: path(ROOTS_DASHBOARD, '/customer/cms'),
     money_transfer: path(ROOTS_DASHBOARD, '/customer/money-transfer'),
     aeps: {
-      root:path(ROOTS_DASHBOARD, '/customer/aeps'),
+      root: path(ROOTS_DASHBOARD, '/customer/aeps'),
       twofa: path(ROOTS_DASHBOARD, '/customer/aeps/twofa'),
     },
     transactions: path(ROOTS_DASHBOARD, '/customer/transactions'),
@@ -79,13 +81,13 @@ export const PATH_DASHBOARD = {
     users: path(ROOTS_DASHBOARD, '/distributor/users'),
     creditReq: path(ROOTS_DASHBOARD, '/distributor/credit-req'),
     mySale: path(ROOTS_DASHBOARD, '/distributor/my-sale'),
-    myPurchase: path(ROOTS_DASHBOARD, '/distributor/my-purchase')
+    myPurchase: path(ROOTS_DASHBOARD, '/distributor/my-purchase'),
   },
   sales: {
     root: path(ROOTS_DASHBOARD, '/sales'),
     transactions: path(ROOTS_DASHBOARD, '/sales/transactions/list'),
     users: path(ROOTS_DASHBOARD, '/sales/users'),
-    creditReq: path(ROOTS_DASHBOARD, '/sales/credit-req')
+    creditReq: path(ROOTS_DASHBOARD, '/sales/credit-req'),
   },
   kanban: path(ROOTS_DASHBOARD, '/kanban'),
   calendar: path(ROOTS_DASHBOARD, '/calendar'),
@@ -96,7 +98,7 @@ export const PATH_DASHBOARD = {
     root: path(ROOTS_DASHBOARD, '/clients'),
     new: path(ROOTS_DASHBOARD, '/clients/new'),
     // edit: (username: string | undefined) => path(ROOTS_DASHBOARD, `/clients/${username}/edit`),
-    edit: path(ROOTS_DASHBOARD, `/clients/edit`)
+    edit: path(ROOTS_DASHBOARD, `/clients/edit`),
   },
   recharges: {
     root: path(ROOTS_DASHBOARD, '/recharges'),
@@ -131,7 +133,7 @@ export const PATH_DASHBOARD = {
     list: path(ROOTS_DASHBOARD, '/transactions/list'),
   },
   prabhuTransfer: {
-    root: path(ROOTS_DASHBOARD, '/admin/prabhu-transfer')
+    root: path(ROOTS_DASHBOARD, '/admin/prabhu-transfer'),
   },
   general: {
     app: path(ROOTS_DASHBOARD, '/admin'),

@@ -38,6 +38,7 @@ export default function HomePage() {
         transformOrigin: '0%',
         backgroundColor: theme.palette.primary.main,
         scaleX,
+        color: '#140a53',
       }}
     />
   );
@@ -51,7 +52,7 @@ export default function HomePage() {
       {progress}
 
       <HomeHero />
-      
+
       <Box
         sx={{
           // overflow: 'hidden',
