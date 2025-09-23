@@ -147,20 +147,20 @@ const Terms = () => {
                 <p className="landing-bg_para">
                   <strong>“Confidential Information”</strong> means and includes the Intellectual
                   Property and any and all business, technical and financial information of TRANSUP
-                  TECHNOLOGIES or of any of its affiliates that is related to any of the
-                  arrangements contemplated in these Terms of Use or any other document in which
-                  these Terms of Use are incorporated by reference or otherwise disclosed by TRANSUP
-                  TECHNOLOGIES to the User any information which relates to its financial and/or
-                  business operations, including but not limited to, specifications, models,
-                  merchant lists/information samples, reports, forecasts, current or historical
-                  data, computer programs or documentation and all other technical, financial or
-                  business data, information related to its internal management, customers,
-                  products, services, anticipated products/services, processes, financial condition,
-                  employees, merchants, Intellectual Property, marketing strategies, experimental
-                  work, trade secrets, business plans, business proposals, customer contract terms
-                  and conditions, compensation/commission/ service charges payable to the User, and
-                  other valuable confidential information and materials that are customarily treated
-                  as confidential or proprietary, whether or not specifically identified as
+                  or of any of its affiliates that is related to any of the arrangements
+                  contemplated in these Terms of Use or any other document in which these Terms of
+                  Use are incorporated by reference or otherwise disclosed by TRANSUP to the User
+                  any information which relates to its financial and/or business operations,
+                  including but not limited to, specifications, models, merchant lists/information
+                  samples, reports, forecasts, current or historical data, computer programs or
+                  documentation and all other technical, financial or business data, information
+                  related to its internal management, customers, products, services, anticipated
+                  products/services, processes, financial condition, employees, merchants,
+                  Intellectual Property, marketing strategies, experimental work, trade secrets,
+                  business plans, business proposals, customer contract terms and conditions,
+                  compensation/commission/ service charges payable to the User, and other valuable
+                  confidential information and materials that are customarily treated as
+                  confidential or proprietary, whether or not specifically identified as
                   confidential or proprietary.
                 </p>
 
@@ -286,8 +286,8 @@ const Terms = () => {
                       TRANSUP may send transactional or non-transactional business communication in
                       the form of SMS or Email or Push notifications as part of its efforts to
                       fulfil the User’s request or service your account. A User may continue to
-                      receive transactional and critical&nbsp;communication from TRANSUP
-                      TECHNOLOGIES even after opting out of marketing communications.
+                      receive transactional and critical&nbsp;communication from TRANSUP even after
+                      opting out of marketing communications.
                     </div>
                     <div className="landing-bg_para">
                       TRANSUP will make the best efforts to provide notifications and it shall be
@@ -404,10 +404,10 @@ const Terms = () => {
                       <p>a)&nbsp; if the User is unable to furnish Chargeback Documents</p>
                       <p>
                         b)&nbsp; the bank is not satisfied with the Chargeback documents furnished
-                        by the User, then the bank shall be entitled to order the TRANSUP
-                        TECHNOLOGIES to affect a reversal of the debit of the Chargeback Amount
-                        associated with the Chargeback such that the said chargeback amount is
-                        credited to the customer’s Payment Instrument.
+                        by the User, then the bank shall be entitled to order the TRANSUP to affect
+                        a reversal of the debit of the Chargeback Amount associated with the
+                        Chargeback such that the said chargeback amount is credited to the
+                        customer’s Payment Instrument.
                       </p>
                     </div>
                     <div className="landing-bg_para">
@@ -449,15 +449,15 @@ const Terms = () => {
                     </div>
                     <div className="landing-bg_para">
                       The User hereby acknowledges and agrees that TRANSUP SERVICES is a facilitator
-                      for payment processing services which are requested by Users and TRANSUP
-                      TECHNOLOGIES shall not be responsible for any unauthorized transaction done by
-                      any person including third party and amounting to infringement of another’s
-                      rights or any chargebacks claimed by the customers. It will be the
-                      responsibility of Users to ensure due protection while transacting online or
-                      otherwise. TRANSUP will assist the Users in settling any queries related to
-                      the Services that arise between the Users, and its customers. However, TRANSUP
-                      SERVICES shall bear no responsibility with respect to the dispute or query
-                      related to payment made by the customers to the Users.
+                      for payment processing services which are requested by Users and TRANSUP shall
+                      not be responsible for any unauthorized transaction done by any person
+                      including third party and amounting to infringement of another’s rights or any
+                      chargebacks claimed by the customers. It will be the responsibility of Users
+                      to ensure due protection while transacting online or otherwise. TRANSUP will
+                      assist the Users in settling any queries related to the Services that arise
+                      between the Users, and its customers. However, TRANSUP SERVICES shall bear no
+                      responsibility with respect to the dispute or query related to payment made by
+                      the customers to the Users.
                     </div>
                   </div>
                 </div>
@@ -526,10 +526,10 @@ const Terms = () => {
                       means other than through the interface that is provided by TRANSUP . It shall
                       not use any deep-link, page scrape, robot, spider or other automatic device,
                       program, algorithm or methodology, or any similar or equivalent manual
-                      process, to access, acquire, copy or monitor any portion of the TRANSUP
-                      TECHNOLOGIES PRIVATE LIMITED, or in any way reproduce or circumvent the
-                      navigational structure or presentation of the platform, without TRANSUP ’s
-                      express prior written consent.
+                      process, to access, acquire, copy or monitor any portion of the JITO FINTECH
+                      LLP, or in any way reproduce or circumvent the navigational structure or
+                      presentation of the platform, without TRANSUP ’s express prior written
+                      consent.
                     </div>
                     <div className="landing-bg_para">
                       it shall not attempt to gain unauthorized access to any portion or feature of
@@ -571,10 +571,10 @@ const Terms = () => {
                       these Terms of Use, or Applicable Agreement,
                     </div>
                     <div className="landing-bg_para">
-                      any claim or legal notice or quasi-legal proceedings to which TRANSUP
-                      TECHNOLOGIES may be required to become party or to which TRANSUP may be
-                      subjected by any person including any governmental authority, by reason of
-                      breach of any Applicable Law,
+                      any claim or legal notice or quasi-legal proceedings to which TRANSUP may be
+                      required to become party or to which TRANSUP may be subjected by any person
+                      including any governmental authority, by reason of breach of any Applicable
+                      Law,
                     </div>
                     <div className="landing-bg_para">
                       due to failure of a User to obtain any required statutory or regulatory
@@ -628,21 +628,21 @@ const Terms = () => {
                   <u>INTELLECTUAL PROPERTY.</u>
                   <div className="custom-list points-alpha mt-3">
                     <div className="landing-bg_para">
-                      TRANSUP ’s services and the Site are owned and operated by TRANSUP
-                      TECHNOLOGIES and/or third-party licensors. The visual interfaces, graphics,
-                      design, compilation, information, computer code (including source code and
-                      object code), products, software, services, and all other elements of TRANSUP
-                      ’s services and the Site provided by TRANSUP (the{' '}
-                      <strong> “Materials”</strong>) are protected by Applicable Law. As between
-                      User and TRANSUP , all Materials and TRANSUP ’s Intellectual Property are the
-                      property of TRANSUP and/or third-party licensors or suppliers. User agrees not
-                      to remove, obscure, or alter TRANSUP or any third party's copyright, patent,
-                      trademark, or other proprietary rights notices affixed to or contained within
-                      or accessed in conjunction with or through TRANSUP ’s services. Except as
-                      expressly authorized by TRANSUP , the User agrees not to sell, license,
-                      distribute, copy, modify, publicly perform or display, transmit, publish,
-                      edit, adapt, create derivative works from, or otherwise make unauthorized use
-                      of the Materials or TRANSUP ’s Intellectual Property.
+                      TRANSUP ’s services and the Site are owned and operated by TRANSUP and/or
+                      third-party licensors. The visual interfaces, graphics, design, compilation,
+                      information, computer code (including source code and object code), products,
+                      software, services, and all other elements of TRANSUP ’s services and the Site
+                      provided by TRANSUP (the <strong> “Materials”</strong>) are protected by
+                      Applicable Law. As between User and TRANSUP , all Materials and TRANSUP ’s
+                      Intellectual Property are the property of TRANSUP and/or third-party licensors
+                      or suppliers. User agrees not to remove, obscure, or alter TRANSUP or any
+                      third party's copyright, patent, trademark, or other proprietary rights
+                      notices affixed to or contained within or accessed in conjunction with or
+                      through TRANSUP ’s services. Except as expressly authorized by TRANSUP , the
+                      User agrees not to sell, license, distribute, copy, modify, publicly perform
+                      or display, transmit, publish, edit, adapt, create derivative works from, or
+                      otherwise make unauthorized use of the Materials or TRANSUP ’s Intellectual
+                      Property.
                     </div>
                     <div className="landing-bg_para">
                       Parties do not accrue any rights or interest in the other Party’s Intellectual

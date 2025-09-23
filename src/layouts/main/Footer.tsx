@@ -6,15 +6,30 @@ import Logo from '../../components/logo';
 import Iconify from '../../components/iconify';
 
 const _socials = [
-  { name: 'Facebook', icon: 'eva:facebook-fill', href: 'https://facebook.com', color: '#4267B2' },
-  { name: 'Twitter', icon: 'eva:twitter-fill', href: 'https://twitter.com', color: '#00ACEE' },
+  {
+    name: 'Facebook',
+    icon: 'akar-icons:facebook-fill',
+    href: 'https://facebook.com',
+    color: '#4267B2',
+  },
+  {
+    name: 'Twitter',
+    icon: 'akar-icons:twitter-fill',
+    href: 'https://twitter.com',
+    color: '#00ACEE',
+  },
   {
     name: 'Instagram',
-    icon: 'eva:instagram-fill',
-    href: 'https://instagram.com',
+    icon: 'akar-icons:instagram-fill',
+    href: 'https://www.instagram.com/p/DO8ILE4DBe2/?igsh=MXN5dzc1enBsMndpMQ==',
     color: '#C13584',
   },
-  { name: 'LinkedIn', icon: 'eva:linkedin-fill', href: 'https://linkedin.com', color: '#005983' },
+  {
+    name: 'LinkedIn',
+    icon: 'akar-icons:linkedin-fill',
+    href: 'https://linkedin.com',
+    color: '#005983',
+  },
 ];
 
 type LinkItem = {
@@ -53,8 +68,8 @@ const LINKS: { headline: string; children: LinkItem[] }[] = [
   {
     headline: 'Contact',
     children: [
-      { name: 'Support@Transup.com', href: 'mailto:Support@Transup.com' },
-      { name: '011-47537321 ,7428985999', href: 'tel:7428985999' },
+      { name: 'pnbandsons.jito@gmail.com', href: 'mailto:pnbandsons.jito@gmail.com' },
+      { name: '9374598900', href: 'tel:9374598900' },
 
       {
         name: 'Ground Floor,Shop No.6,Madhuudan Complex,Radar Road,Gokul Nagar,Jamnagar, Gujarat-361004',

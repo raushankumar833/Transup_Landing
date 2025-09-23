@@ -61,16 +61,15 @@ const PrivacyPolicyView = () => {
                 Users create an account with us on our Website.
               </p>
               <p className="landing-bg_para">
-                TRANSUP TECHNOLOGIES reserves its right to modify, alter, and update this Policy at
-                any time, with or without prior notice. Although, Users shall be notified of
-                material changes through their registered email address or any other mode of
-                communication available with us, it is advised that they consult this Policy
-                regularly to be updated about the changes. If a User continues to use or avail the
-                services of the Website after any modification, amendment, alteration or change of
-                this Policy, irrespective of whether notice was sent to the User or published on the
-                Website, such User is hereby deemed to provide consent to this Policy and TRANSUP ’s
-                other Policies and practices existing at the time of visiting, accessing and/or
-                using the Website.
+                TRANSUP reserves its right to modify, alter, and update this Policy at any time,
+                with or without prior notice. Although, Users shall be notified of material changes
+                through their registered email address or any other mode of communication available
+                with us, it is advised that they consult this Policy regularly to be updated about
+                the changes. If a User continues to use or avail the services of the Website after
+                any modification, amendment, alteration or change of this Policy, irrespective of
+                whether notice was sent to the User or published on the Website, such User is hereby
+                deemed to provide consent to this Policy and TRANSUP ’s other Policies and practices
+                existing at the time of visiting, accessing and/or using the Website.
               </p>
 
               <div className="landing-bg_para">This Policy is published in compliance of:</div>
@@ -166,9 +165,9 @@ const PrivacyPolicyView = () => {
                 their Account on the Website.
               </p>
               <p className="landing-bg_para">
-                TRANSUP TECHNOLOGIES presumes adequate and lawful parental consent in case the
-                Personal Information or Sensitive personal data or information is shared by a User
-                under the age of 18 years.
+                TRANSUP presumes adequate and lawful parental consent in case the Personal
+                Information or Sensitive personal data or information is shared by a User under the
+                age of 18 years.
               </p>
 
               <div className="landing-bg_para">
@@ -288,12 +287,12 @@ const PrivacyPolicyView = () => {
                 information to any government institution or authority, except where such disclosure
                 is (i) obligated by law, (ii) requested by a lawfully authorized government
                 authority, (iii) pursuant to a judicial decree, (iv) for enforcing and protecting
-                the legal rights of TRANSUP TECHNOLOGIES or others’, (v) for seeking any relief,
-                (vi) for defending any charge, (vii) for opposing any claim, (viii) for enforcing
-                this Policy or our Terms of Use, (ix) for obtaining any legal advice. We also
-                reserve our right to disclose, share or transfer your Personal Information or
-                Sensitive personal data or information to a third party due to any change in
-                ownership, merger, restructuring or sale of our business assets.
+                the legal rights of TRANSUP or others’, (v) for seeking any relief, (vi) for
+                defending any charge, (vii) for opposing any claim, (viii) for enforcing this Policy
+                or our Terms of Use, (ix) for obtaining any legal advice. We also reserve our right
+                to disclose, share or transfer your Personal Information or Sensitive personal data
+                or information to a third party due to any change in ownership, merger,
+                restructuring or sale of our business assets.
               </p>
 
               <div className="landing-bg_para">
@@ -353,14 +352,14 @@ const PrivacyPolicyView = () => {
                 <h3 className="h5">Mailers</h3>
               </div>
               <p className="landing-bg_para">
-                TRANSUP TECHNOLOGIES may send direct mailers to the User at the email address given
-                by the User. The User has the option to opt-out of this direct mailer by way of
-                links provided at the bottom of each mailer or any other means as TRANSUP
-                TECHNOLOGIES deems appropriate. TRANSUP TECHNOLOGIES respects every User’s privacy
-                and in the event that User chooses to not receive such mailers, TRANSUP TECHNOLOGIES
-                will take all steps to remove the User from the list. If a User wants to remove
-                his/her/it’s contact information from all mailing lists and newsletters, the same
-                can be done through “Profile” page of his/her/it’s account with TRANSUP .
+                TRANSUP may send direct mailers to the User at the email address given by the User.
+                The User has the option to opt-out of this direct mailer by way of links provided at
+                the bottom of each mailer or any other means as TRANSUP deems appropriate. TRANSUP
+                respects every User’s privacy and in the event that User chooses to not receive such
+                mailers, TRANSUP will take all steps to remove the User from the list. If a User
+                wants to remove his/her/it’s contact information from all mailing lists and
+                newsletters, the same can be done through “Profile” page of his/her/it’s account
+                with TRANSUP .
               </p>
 
               <div className="landing-bg_para">
@@ -383,11 +382,10 @@ const PrivacyPolicyView = () => {
                 DPSS.CO.ODNo.2785/06.08.005/2017-2018 dated April 6, 2018, all Users, including
                 system participants, service providers, intermediaries, payment gateways, third
                 party vendors and other entities in the payments ecosystem, who are retained or
-                engaged by TRANSUP TECHNOLOGIES for providing payment services shall mandatorily
-                store entire Payment Data in systems located only in India. Notwithstanding the
-                above, for cross border transaction data, consisting of a foreign component and a
-                domestic component, a copy of the domestic component may also be stored abroad, if
-                required.
+                engaged by TRANSUP for providing payment services shall mandatorily store entire
+                Payment Data in systems located only in India. Notwithstanding the above, for cross
+                border transaction data, consisting of a foreign component and a domestic component,
+                a copy of the domestic component may also be stored abroad, if required.
               </p>
 
               <div className="landing-bg_para">
