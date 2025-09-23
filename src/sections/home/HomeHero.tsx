@@ -111,7 +111,7 @@ export default function HomeHero() {
         <Box component={MotionContainer} sx={{ height: 1 }}>
           <Grid container spacing={10} sx={{ height: 1 }}>
             <Grid item xs={12} md={6} sx={{ height: 1 }}>
-              {/* <Description /> */}
+              <Description />
             </Grid>
 
             {isDesktop && (
@@ -199,8 +199,8 @@ function Description() {
             size="large"
             variant="outlined"
             startIcon={<Iconify icon="eva:external-link-fill" width={24} />}
-            onClick={() => (window.location.href = 'https://p2pae.com/login')}
-            sx={{ borderColor: '#140a43', color: '#140a43' }}
+            onClick={() => (window.location.href = 'https://Transup.com/login')}
+            sx={{ borderColor: '#140a43', color: '#2275b7' }}
           >
             GET STARTED FOR FREE
           </Button>

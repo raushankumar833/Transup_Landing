@@ -15,7 +15,7 @@ const StyledRoot = styled('section')(({ theme }) => ({
   overflow: 'hidden',
   padding: theme.spacing(10, 0),
   ...bgGradient({
-    color: alpha('#5210c1', 0.95),
+    color: alpha('#2275b7', 0.95),
     imgUrl: '/assets/background/overlay_2.jpg',
   }),
 }));

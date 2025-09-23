@@ -9,7 +9,7 @@ export default function AboutVision() {
   return (
     <>
       <Image
-        src="/assets/images/about/vision.jpeg"
+        src="/assets/images/about/meeting.webp"
         alt="about-vision"
         sx={{ width: '100%', height: '70vh' }}
       />
@@ -17,7 +17,7 @@ export default function AboutVision() {
       <Grid container spacing={12} px={{ lg: 12, xs: 4 }}>
         <Grid item lg={4}>
           <Stack sx={{ height: '20vh' }}>
-            <Image src="/assets/images/about/vision.jpeg" alt="about-vision" />
+            <Image src="/assets/images/about/meeting.webp" alt="about-vision" />
           </Stack>
           <Stack
             sx={{

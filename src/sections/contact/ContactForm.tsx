@@ -46,8 +46,8 @@ const ContactForm = () => (
                     backgroundColor: '#ffffff',
                     '& .MuiOutlinedInput-root': {
                       '& fieldset': { borderColor: '#d1b3e0' },
-                      '&:hover fieldset': { borderColor: '#9c27b0' },
-                      '&.Mui-focused fieldset': { borderColor: '#6a1b9a' },
+                      '&:hover fieldset': { borderColor: '#2275b7' },
+                      '&.Mui-focused fieldset': { borderColor: '#2275b7' },
                     },
                   }}
                 />
@@ -66,8 +66,8 @@ const ContactForm = () => (
                   backgroundColor: '#ffffff',
                   '& .MuiOutlinedInput-root': {
                     '& fieldset': { borderColor: '#d1b3e0' },
-                    '&:hover fieldset': { borderColor: '#9c27b0' },
-                    '&.Mui-focused fieldset': { borderColor: '#6a1b9a' },
+                    '&:hover fieldset': { borderColor: '#2275b7' },
+                    '&.Mui-focused fieldset': { borderColor: '#2275b7' },
                   },
                 }}
               />
@@ -79,7 +79,7 @@ const ContactForm = () => (
               size="large"
               variant="contained"
               sx={{
-                backgroundColor: '#ba68c8', // light purple
+                backgroundColor: '#2275b7', // light purple
                 mt: { xs: 1, sm: 2, md: 2 },
                 color: '#fff',
                 fontWeight: 'bold',
@@ -110,7 +110,7 @@ const ContactForm = () => (
       >
         <Box
           component="img"
-          src="../assets/illustrations/cntact_us.jpg"
+          src="../assets/illustrations/contact-us.webp"
           alt="Contact Illustration"
           sx={{
             width: { xs: '100%', sm: '90%', md: '100%' },

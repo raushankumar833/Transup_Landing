@@ -93,7 +93,9 @@ const IconWrapper = styled('div')(({ theme }) => ({
   alignItems: 'center',
   justifyContent: 'center',
   borderRadius: '50%',
-  background: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
+  // background: `linear-gradient(135deg, ${theme.palette.primary.main}, ${theme.palette.secondary.main})`,
+  background: 'linear-gradient(135deg, #4facfe, #00f2fe)', // blue gradient
+
   boxShadow: `0 10px 25px rgba(0,0,0,0.15)`,
   transition: 'all 0.4s ease',
   position: 'relative',

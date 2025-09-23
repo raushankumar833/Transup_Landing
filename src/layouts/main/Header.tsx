@@ -34,7 +34,7 @@ export default function Header() {
       sx={{
         width: '100%',
         left: 0,
-        backgroundColor: '#5210c1',
+        backgroundColor: '#2275b7',
         boxShadow: 0,
         zIndex: theme.zIndex.appBar,
       }}
@@ -81,15 +81,15 @@ export default function Header() {
             variant="contained"
             rel="noopener"
             //  href={PATH_AUTH.login}
-            onClick={() => (window.location.href = 'https://app.p2pae.com/login')}
+            onClick={() => (window.location.href = 'https://app.Transup.com/login')}
             sx={{
-              backgroundColor: '#731cdd',
+              backgroundColor: '#fff',
               fontSize: isDesktop ? '14px' : '10px',
               py: isDesktop ? 1 : '4px',
               px: isDesktop ? 2 : '10px',
-              color: '#fff',
+              color: '#000',
               textTransform: 'none',
-              '&:hover': { backgroundColor: '#5a15b8' },
+              '&:hover': { backgroundColor: '#fff' },
             }}
           >
             Login Now

@@ -26,7 +26,7 @@ type LinkItem = {
 
 const LINKS: { headline: string; children: LinkItem[] }[] = [
   {
-    headline: `P2PAE`,
+    headline: `Transup`,
     children: [
       { name: 'About us', href: PATH_PAGE.about },
       { name: 'Contact us', href: PATH_PAGE.contact },
@@ -53,11 +53,11 @@ const LINKS: { headline: string; children: LinkItem[] }[] = [
   {
     headline: 'Contact',
     children: [
-      { name: 'Support@p2pae.com', href: 'mailto:Support@p2pae.com' },
+      { name: 'Support@Transup.com', href: 'mailto:Support@Transup.com' },
       { name: '011-47537321 ,7428985999', href: 'tel:7428985999' },
 
       {
-        name: 'PVT No.-2, B-1, KH No.900/289Ground Floor, Shalimar Village, Delhi, North West Delhi- 110088, Delhi',
+        name: 'Ground Floor,Shop No.6,Madhuudan Complex,Radar Road,Gokul Nagar,Jamnagar, Gujarat-361004',
         href: '#',
       },
     ],

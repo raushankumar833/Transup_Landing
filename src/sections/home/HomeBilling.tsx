@@ -177,9 +177,10 @@ function BillingCardComponent() {
                   borderRadius: '8px',
                   fontWeight: 600,
                   textTransform: 'none',
-                  background: `linear-gradient(135deg, ${theme.palette.secondary.main}, ${theme.palette.primary.main})`,
+                  color: '#000',
+                  background: 'linear-gradient(135deg, #4facfe, #00f2fe)', // blue gradient
                   '&:hover': {
-                    background: `linear-gradient(135deg, ${theme.palette.secondary.dark}, ${theme.palette.primary.dark})`,
+                    background: 'linear-gradient(135deg, #3a8dde, #00cfff)', // slightly darker blue on hover
                   },
                 }}
                 endIcon={<Iconify icon="line-md:chevron-right" />}
@@ -240,9 +241,10 @@ function Description() {
             fontSize: '18px',
             fontWeight: 600,
             textTransform: 'none',
-            background: `linear-gradient(135deg, ${theme.palette.secondary.main}, ${theme.palette.primary.main})`,
+            color: '#000',
+            background: 'linear-gradient(135deg, #4facfe, #00f2fe)', // blue gradient
             '&:hover': {
-              background: `linear-gradient(135deg, ${theme.palette.secondary.dark}, ${theme.palette.primary.dark})`,
+              background: 'linear-gradient(135deg, #3a8dde, #00cfff)', // slightly darker blue on hover
             },
           }}
           endIcon={<Iconify icon="line-md:chevron-right" />}

@@ -22,14 +22,14 @@ module.exports = withTM({
     // !! WARN !!
     ignoreBuildErrors: true,
   },
-    
+
   eslint: {
     ignoreDuringBuilds: true, // ✅ disables ESLint checks during build
   },
- distDir: 'build', 
+  distDir: 'build',
   env: {
     // HOST
-    HOST_API_KEY: 'https://p2pae.com/',
+    HOST_API_KEY: 'https://Transup.com/',
     REACT_APP_PROJECT_TITLE: projectConfig.project.title,
     REACT_APP_COMPANY_ID: projectConfig.project.company_id,
     REACT_APP_PROJECT_DESCRIPTION: projectConfig.project.description,

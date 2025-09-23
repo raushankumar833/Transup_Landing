@@ -120,7 +120,7 @@ function Description() {
             c
             sx={{
               color: 'grey.100',
-              backgroundColor: '#731cdd',
+              backgroundColor: '#2275b7',
             }}
           >
             Get Started
@@ -133,8 +133,8 @@ function Description() {
             variant="outlined"
             onClick={() => push('/services')}
             sx={{
-              color: '#731cdd',
-              borderColor: '#731cdd',
+              color: '#2275b7',
+              borderColor: '#2275b7',
               '&:hover': { borderColor: '#5310aa', color: '#5310aa' },
             }}
           >

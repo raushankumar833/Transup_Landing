@@ -1,5 +1,5 @@
 // @mui
-import { Box, Typography, Grid, Avatar, Button } from '@mui/material';
+import { Box, Typography, Grid, Avatar, Button, Card, CardContent } from '@mui/material';
 
 // Expanded sample data
 const aboutUsData = [
@@ -70,40 +70,69 @@ export default function AboutValues() {
 
   return (
     <>
-      <Box sx={{ backgroundColor: '#f8f9fb' }} p={{ lg: 4, xs: 4 }} alignSelf={'center'}>
-        <Typography textAlign={'center'} variant="h1" sx={{ color: '#140a53' }}>
+      <Box sx={{ backgroundColor: '#f8f9fb', py: { xs: 6, lg: 12 } }}>
+        <Typography
+          textAlign="center"
+          variant="h2"
+          sx={{
+            color: '#140a53',
+            fontWeight: 'bold',
+            mb: 2,
+          }}
+        >
           Our Values
         </Typography>
         <Typography
-          textAlign={'center'}
+          textAlign="center"
           variant="body1"
-          sx={{ fontWeight: '100', color: '#140a53' }}
+          sx={{ color: '#140a53', fontWeight: 300, mb: 6 }}
         >
-          Our values guide everything we do: how we create our
-          <br /> product, and how we operate as a team.
+          Our values guide everything we do: how we create our product, and how we operate as a
+          team.
         </Typography>
 
-        <Grid container px={{ lg: 32, md: 12 }} mt={3} spacing={6}>
-          {aboutus.map((about, index) => (
-            <Grid item xs={12} md={6} key={index}>
-              <Avatar
+        <Grid container spacing={4} justifyContent="center" px={{ xs: 2, md: 8, lg: 16 }}>
+          {aboutUsData.map((item) => (
+            <Grid item xs={12} sm={6} md={4} lg={3} key={item.id}>
+              <Card
                 sx={{
-                  bgcolor: '#fff',
-                  boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
-                  height: '60px',
-                  width: '60px',
+                  borderRadius: 3,
+                  boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
+                  textAlign: 'center',
+                  transition: 'transform 0.3s, box-shadow 0.3s',
+                  '&:hover': {
+                    transform: 'translateY(-8px)',
+                    boxShadow: '0 8px 20px rgba(0,0,0,0.15)',
+                  },
                 }}
               >
-                <Typography variant="h5" sx={{ fontWeight: '800', color: '#140a53' }}>
-                  {about.id}
-                </Typography>
-              </Avatar>
-              <Typography variant="h5" pt={2} sx={{ fontWeight: '800', color: '#140a53' }}>
-                {about.title}
-              </Typography>
-              <Typography variant="body1" sx={{ fontWeight: '400', color: '#140a53' }}>
-                {about.description}
-              </Typography>
+                <CardContent>
+                  <Box
+                    sx={{
+                      width: 60,
+                      height: 60,
+                      borderRadius: '50%',
+                      mx: 'auto',
+                      mb: 2,
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      background: 'linear-gradient(135deg, #4facfe, #00f2fe)',
+                      color: '#fff',
+                      fontWeight: 'bold',
+                      fontSize: '20px',
+                    }}
+                  >
+                    {item.id}
+                  </Box>
+                  <Typography variant="h6" sx={{ fontWeight: '700', mb: 1, color: '#140a53' }}>
+                    {item.title}
+                  </Typography>
+                  <Typography variant="body2" sx={{ color: '#140a53', fontWeight: 400 }}>
+                    {item.description}
+                  </Typography>
+                </CardContent>
+              </Card>
             </Grid>
           ))}
         </Grid>
@@ -112,7 +141,7 @@ export default function AboutValues() {
       <Box p={{ lg: 4, xs: 4 }} alignSelf={'center'}>
         <Grid container px={{ lg: 12, md: 12 }} pt={4} spacing={6}>
           <Grid item lg={6}>
-            <Typography sx={{ color: '#140a53' }} variant="h2">
+            <Typography sx={{ color: '#2275b7' }} variant="h2">
               Get Started
             </Typography>
             <Typography variant="h6" sx={{ fontWeight: '100', color: '#140a53' }}>
@@ -125,7 +154,7 @@ export default function AboutValues() {
               variant="contained"
               sx={{ bgcolor: '#140a53' }}
               size="large"
-              onClick={() => (window.location.href = 'https://p2pae.com/login')}
+              onClick={() => (window.location.href = 'https://Transup.com/login')}
             >
               Sign Up
             </Button>

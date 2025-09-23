@@ -17,7 +17,7 @@ const StyledRoot = styled('div')(({ theme }) => ({
   height: 'auto',
   // backgroundColor: '#fff3b0',
   // backgroundColor: '#ff758f',
-      background: 'linear-gradient(135deg, #c9a6ff 0%, #ff758f 100%)',
+  background: 'linear-gradient(135deg, #c9a6ff 0%, #ff758f 100%)',
   // backgroundColor: '#f08080',
   // backgroundColor: '#ffb3c1',
   // backgroundColor: theme.palette.secondary.light,
@@ -68,11 +68,7 @@ function HeroFloatCard() {
         <Typography
           variant={isMobile ? 'h6' : 'h4'}
           fontWeight={isMobile ? 'normal' : 'bold'}
-<<<<<<< HEAD
-          color={theme.palette.common.black}
-=======
           color="#140a53"
->>>>>>> 5849979d6b9127994b129188f1eb71f85c78a877
           sx={{
             mb: 1,
             textTransform: 'uppercase',
@@ -80,11 +76,7 @@ function HeroFloatCard() {
         >
           {hero?.sub_title}
         </Typography>
-        <Typography
-          variant={isMobile ? 'h3' : 'h2'}
-          fontWeight="bold"
-          color="#140a53"
-        >
+        <Typography variant={isMobile ? 'h3' : 'h2'} fontWeight="bold" color="#140a53">
           {hero?.title}
         </Typography>
         <Typography
@@ -159,7 +151,7 @@ const contactusbutton = (
       size="large"
       variant="outlined"
       sx={{
-        color: (theme) => "#140a53",
+        color: (theme) => '#140a53',
         borderRadius: '2px',
       }}
       endIcon={<Iconify icon="ic:round-arrow-right-alt" />}

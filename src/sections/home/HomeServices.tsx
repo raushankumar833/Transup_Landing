@@ -24,8 +24,10 @@ const StyledDescription = styled('div')(({ theme }) => ({
 
 const StyledContent = styled('div')(({ theme }) => ({
   ...bgGradient({
-    color: alpha(theme.palette.primary.light, 0.05),
-    imgUrl: '/assets/background/overlay_3.jpg',
+    direction: '135deg',
+    startColor: 'rgba(224, 247, 255, 0.8)', // very light blue
+    endColor: 'rgba(179, 240, 255, 0.8)', // slightly darker light blue
+    imgUrl: '/assets/background/overlay_3.jpg', // optional overlay
   }),
   padding: theme.spacing(6),
   borderRadius: theme.shape.borderRadius * 2,
@@ -81,7 +83,7 @@ export default function HomeServices() {
                 WebkitTextFillColor: 'transparent',
               }}
             >
-              How P2PAE Can Help You?
+              How Transup Can Help You?
             </Typography>
           </m.div>
           {isDesktop && <Stack mt={5}>{exploreServicesButton}</Stack>}
@@ -95,7 +97,7 @@ export default function HomeServices() {
                 <m.div variants={varFade().inUp}>
                   <ServiceCard>
                     <IconWrapper>
-                      <Iconify icon={service.icon} width={36} height={36} color="#6A0DAD" />
+                      <Iconify icon={service.icon} width={36} height={36} color="#2275b7" />
                     </IconWrapper>
 
                     <Box flexGrow={1} display="flex" flexDirection="column" justifyContent="center">
@@ -183,12 +185,12 @@ const exploreServicesButton = (
       href={PATH_PAGE.components}
       endIcon={<Iconify icon="ic:round-arrow-right-alt" />}
       sx={{
-        borderColor: '#140A53',
-        color: '#140A53',
+        borderColor: '#2275b7',
+        color: '#2275b7',
         fontWeight: 'bold',
         '&:hover': {
           backgroundColor: alpha('#140A53', 0.1),
-          borderColor: '#140A53',
+          borderColor: '#2275b7',
         },
       }}
     >

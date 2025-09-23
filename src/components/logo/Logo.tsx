@@ -16,7 +16,7 @@ const Logo = forwardRef<HTMLDivElement, LogoProps>(
     const logo = (
       <Box
         component="img"
-        src="/logo/logopkmc.png"
+        src="/logo/logokpmc.jpeg"
         sx={{
           width: { xs: 120, sm: 150, md: 180 }, // responsive sizes
           height: 'auto', // keeps aspect ratio
