@@ -123,7 +123,7 @@ export default function HomeHero() {
           </Grid>
         </Box>
 
-        {/* <StyledEllipseTop /> */}
+        <StyledEllipseTop />
         <StyledEllipseBottom />
       </StyledRoot>
 
