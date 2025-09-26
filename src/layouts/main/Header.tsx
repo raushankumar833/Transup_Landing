@@ -81,7 +81,7 @@ export default function Header() {
             variant="contained"
             rel="noopener"
             //  href={PATH_AUTH.login}
-            onClick={() => (window.location.href = 'https://app.Transup.in/login')}
+            onClick={() => (window.location.href = 'https://app.Transup.in/qrlogin')}
             sx={{
               backgroundColor: '#fff',
               fontSize: isDesktop ? '14px' : '10px',
