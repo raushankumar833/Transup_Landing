@@ -42,8 +42,8 @@ const Terms = () => {
                 <strong>“JITO FINTECH LLP”</strong> or
                 <strong> “Platform”</strong>
                 created by JITO FINTECH LLP, a company incorporated under the laws of India, with
-                its registered office at PVT No.-2, B-1, KH No.900/289Ground Floor, Shalimar
-                Village, Delhi, North West Delhi- 110088, Delhi
+                its registered office at Ground Floor,Shop No.6,Madhuudan Complex,Radar Road,Gokul
+                Nagar,Jamnagar, Gujarat-361004
                 <strong>(“TRANSUP ” or “Company”)</strong>.
               </p>
 
