@@ -862,9 +862,9 @@ const Terms = () => {
                       <u>NOTICE</u>. TRANSUP may provide Users with notices and communications by
                       email, regular mail, or posts on the TRANSUP website(s) or by any other
                       reasonable means. Except as otherwise set forth herein, notice to TRANSUP must
-                      be sent by courier or registered post to the Legal Department, TRANSUP PRIVATE
-                      LIMITED s Pvt. Ltd., 1st Floor, B1/A5, Mohan Cooperative Industrial Estate,
-                      New Delhi - 110044, India.
+                      be sent by courier or registered post to the Legal Department, TRANSUP ,Ground
+                      Floor,Shop No.6,Madhuudan Complex,Radar Road,Gokul Nagar,Jamnagar,
+                      Gujarat-361004, India.
                     </div>
 
                     <div className="landing-bg_para">
