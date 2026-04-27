@@ -68,8 +68,8 @@ const LINKS: { headline: string; children: LinkItem[] }[] = [
   {
     headline: 'Contact',
     children: [
-      { name: 'pnbandsons.jito@gmail.com', href: 'mailto:pnbandsons.jito@gmail.com' },
-      { name: '9374598900', href: 'tel:9374598900' },
+      { name: 'sales@transup.in', href: 'mailto:sales@transup.in' },
+      { name: '8200530789,9913398900', href: 'tel:8200530789,9913398900' },
 
       {
         name: 'Ground Floor,Shop No.6,Madhuudan Complex,Radar Road,Gokul Nagar,Jamnagar, Gujarat-361004',
