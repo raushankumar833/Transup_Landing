@@ -1,15 +1,47 @@
 import NextLink from 'next/link';
-import { Box, Grid, Link, Stack, Divider, Container, Typography, IconButton } from '@mui/material';
+import { useRouter } from 'next/router';
+import { Box, Grid, Link, Stack, Container, Typography, IconButton } from '@mui/material';
 import { PATH_PAGE } from '../../routes/paths';
-import { _socials } from '../../_mock/arrays';
 import Logo from '../../components/logo';
 import Iconify from '../../components/iconify';
 
-// ----------------------------------------------------------------------
-
-const LINKS = [
+const _socials = [
   {
-    headline: `${process.env.REACT_APP_PROJECT_TITLE}`,
+    name: 'Facebook',
+    icon: 'akar-icons:facebook-fill',
+    href: 'https://facebook.com',
+    color: '#4267B2',
+  },
+  {
+    name: 'Twitter',
+    icon: 'akar-icons:twitter-fill',
+    href: 'https://twitter.com',
+    color: '#00ACEE',
+  },
+  {
+    name: 'Instagram',
+    icon: 'akar-icons:instagram-fill',
+    href: 'https://www.instagram.com/p/DO8ILE4DBe2/?igsh=MXN5dzc1enBsMndpMQ==',
+    color: '#C13584',
+  },
+  {
+    name: 'LinkedIn',
+    icon: 'akar-icons:linkedin-fill',
+    href: 'https://linkedin.com',
+    color: '#005983',
+  },
+];
+
+type LinkItem = {
+  name: string;
+  href: string;
+  target?: string;
+  rel?: string;
+};
+
+const LINKS: { headline: string; children: LinkItem[] }[] = [
+  {
+    headline: `Transup`,
     children: [
       { name: 'About us', href: PATH_PAGE.about },
       { name: 'Contact us', href: PATH_PAGE.contact },
@@ -19,136 +51,175 @@ const LINKS = [
   {
     headline: 'Legal',
     children: [
-      { name: 'Terms and Condition', href: '#' },
-      { name: 'Privacy Policy', href: '#' },
+      {
+        name: 'Terms and Condition',
+        href: PATH_PAGE.termscondition,
+        target: '_blank',
+        rel: 'noopener noreferrer',
+      },
+      {
+        name: 'Privacy Policy',
+        href: PATH_PAGE.privacy,
+        target: '_blank',
+        rel: 'noopener noreferrer',
+      },
     ],
   },
   {
     headline: 'Contact',
     children: [
-      { name: 'connect@biggbrains.com', href: 'mailto:connect@biggbrains.com' },
-      { name: 'Flat No. 8, Pocket 6, Sector 22, Rohini, Delhi, 110086', href: '#' },
+      { name: 'sales@transup.in', href: 'mailto:sales@transup.in' },
+      { name: '8200530789,9913398900', href: 'tel:8200530789,9913398900' },
+
+      {
+        name: 'Ground Floor,Shop No.6,Madhuudan Complex,Radar Road,Gokul Nagar,Jamnagar, Gujarat-361004',
+        href: '#',
+      },
     ],
   },
 ];
 
-// ----------------------------------------------------------------------
-
 export default function Footer() {
   const date = new Date().getFullYear();
-  // const { pathname } = useRouter();
+  const router = useRouter();
 
-  // const isHome = pathname === '/';
+  const isActive = (href: string) => router.pathname === href;
 
-  // const simpleFooter = (
-  //   <Box
-  //     component="footer"
-  //     sx={{
-  //       py: 5,
-  //       textAlign: 'center',
-  //       position: 'relative',
-  //       bgcolor: 'background.default',
-  //     }}
-  //   >
-  //     <Container>
-  //       <Logo sx={{ mb: 1, mx: 'auto' }} />
-
-  //       <Typography variant="caption" component="div">
-  //         © All rights reserved
-  //         <br /> made by &nbsp;
-  //         <Link href="https://minimals.cc/"> minimals.cc </Link>
-  //       </Typography>
-  //     </Container>
-  //   </Box>
-  // );
-
-  const mainFooter = (
+  return (
     <Box
       component="footer"
-      sx={{
-        position: 'relative',
-        bgcolor: 'background.default',
-      }}
+      sx={{ position: 'relative', bgcolor: 'background.default', overflow: 'hidden', py: 2, mt: 2 }}
     >
-      <Divider />
+      {/* Logo watermark */}
+      <Box
+        sx={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          opacity: 0.05,
+          zIndex: 0,
+          width: { xs: '80%', md: '40%' },
+          pointerEvents: 'none',
+        }}
+      >
+        <Logo sx={{ width: '100%', height: 'auto' }} />
+      </Box>
 
-      <Container sx={{ pt: 10 }}>
+      <Container sx={{ position: 'relative', zIndex: 1 }}>
         <Grid
           container
-          justifyContent={{
-            xs: 'center',
-            md: 'space-between',
-          }}
-          sx={{
-            textAlign: {
-              xs: 'center',
-              md: 'left',
-            },
-          }}
+          justifyContent={{ xs: 'center', md: 'space-between' }}
+          sx={{ textAlign: { xs: 'center', md: 'left' } }}
         >
+          {/* Logo */}
           <Grid item xs={12} sx={{ mb: 3 }}>
-            <Logo sx={{ mx: { xs: 'auto', md: 'inherit' } }} />
+            <Logo sx={{ mx: { xs: 'auto', md: 'inherit' }, zIndex: 2, position: 'relative' }} />
           </Grid>
 
-          <Grid item xs={8} md={3}>
-            <Typography variant="body2" sx={{ pr: { md: 5 } }}>
+          {/* Disclaimer and social icons */}
+          <Grid item xs={12} md={4} sx={{ mb: { xs: 3, md: 1 } }}>
+            <Typography variant="body1" sx={{ pr: { md: 4 }, fontWeight: 500, color: '#140a53' }}>
               Disclaimer: Any dispute arising under these terms and conditions shall be subject to
               the jurisdiction of the courts of Delhi.
             </Typography>
 
             <Stack
-              spacing={1}
+              spacing={1.5}
               direction="row"
               justifyContent={{ xs: 'center', md: 'flex-start' }}
-              sx={{
-                mt: 5,
-                mb: { xs: 5, md: 0 },
-              }}
+              sx={{ mt: 2 }}
             >
               {_socials.map((social) => (
-                <IconButton key={social.name}>
-                  <Iconify icon={social.icon} />
+                <IconButton
+                  key={social.name}
+                  component="a"
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{
+                    color: social.color,
+                    transition: '0.3s',
+                    '&:hover': { transform: 'scale(1.2)' },
+                  }}
+                >
+                  <Iconify icon={social.icon} width={24} height={24} />
                 </IconButton>
               ))}
             </Stack>
           </Grid>
 
+          {/* Links */}
           <Grid item xs={12} md={7}>
             <Stack
-              spacing={5}
-              justifyContent="space-between"
               direction={{ xs: 'column', md: 'row' }}
+              justifyContent="flex-start"
+              spacing={{ xs: 4, md: 12 }}
+              flexWrap="nowrap" // keep all columns in one row
             >
               {LINKS.map((list) => (
                 <Stack
                   key={list.headline}
-                  spacing={2}
+                  spacing={1}
                   alignItems={{ xs: 'center', md: 'flex-start' }}
+                  sx={{ whiteSpace: 'nowrap' }} // prevents text wrap
                 >
-                  <Typography component="div" variant="overline">
+                  <Typography
+                    component="div"
+                    variant="subtitle1"
+                    sx={{ fontWeight: 700, whiteSpace: 'nowrap', color: '#140a53' }}
+                  >
                     {list.headline}
                   </Typography>
 
-                  {list.children.map((link) => (
-                    <NextLink key={link.name} href={link.href} passHref>
-                      <Link color="inherit" variant="body2">
+                  {list.children.map((link) =>
+                    link.target ? (
+                      <Link
+                        key={link.name}
+                        href={link.href}
+                        target={link.target}
+                        rel={link.rel}
+                        sx={{
+                          fontSize: '1rem',
+                          color: isActive(link.href) ? '#140a53' : 'inherit',
+                          transition: '0.3s',
+                          '&:hover': { color: '#5210c1' },
+                          whiteSpace: 'nowrap', // prevents wrapping
+                        }}
+                      >
                         {link.name}
                       </Link>
-                    </NextLink>
-                  ))}
+                    ) : (
+                      <NextLink key={link.name} href={link.href} passHref>
+                        <Link
+                          sx={{
+                            fontSize: '1rem',
+                            color: isActive(link.href) ? '#140a53' : 'inherit',
+                            fontWeight: isActive(link.href) ? 600 : 400,
+                            '&:hover': { color: '#5210c1' },
+                            whiteSpace: 'wrap', // prevents wrapping
+                          }}
+                        >
+                          {link.name}
+                        </Link>
+                      </NextLink>
+                    )
+                  )}
                 </Stack>
               ))}
             </Stack>
           </Grid>
         </Grid>
 
+        {/* Copyright */}
         <Typography
           variant="caption"
           component="div"
           sx={{
-            mt: 10,
-            pb: 5,
+            color: '#140a53',
+            mt: 2,
             textAlign: { xs: 'center', md: 'left' },
+            fontSize: '0.95rem',
           }}
         >
           © {date}. All rights reserved
@@ -156,7 +227,4 @@ export default function Footer() {
       </Container>
     </Box>
   );
-
-  return mainFooter;
-  // return isHome ? simpleFooter : mainFooter;
 }

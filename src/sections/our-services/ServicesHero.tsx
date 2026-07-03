@@ -1,4 +1,4 @@
-import { styled, useTheme } from '@mui/material/styles';
+import { alpha, styled, useTheme } from '@mui/material/styles';
 import { Typography, Box, Divider, Button, Stack } from '@mui/material';
 import { m } from 'framer-motion';
 import { varFade } from 'src/components/animate';
@@ -14,12 +14,33 @@ const MainRoot = styled('div')(({ theme }) => ({
 const StyledRoot = styled('div')(({ theme }) => ({
   position: 'relative',
   padding: theme.spacing(2, 1, 2, 1),
-  // height: '80vh',
-  backgroundColor: '#fff3b0',
+  background: `linear-gradient(135deg, #e0c3fc 0%, #ffd8a8 100%)`, // light purple to light orange
+  overflow: 'hidden',
   [theme.breakpoints.up('md')]: {
     padding: theme.spacing(8, 0, 8, 0),
   },
+  '&::before': {
+    content: '""',
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    background: `radial-gradient(circle at top right, rgba(255,255,255,0.15), transparent 70%)`,
+    zIndex: 1,
+  },
+  '&::after': {
+    content: '""',
+    position: 'absolute',
+    bottom: 0,
+    right: 0,
+    width: '100%',
+    height: '100%',
+    background: `radial-gradient(circle at bottom left, rgba(255,255,255,0.15), transparent 70%)`,
+    zIndex: 1,
+  },
 }));
+
 const StyledContent = styled(Box)(({ theme }) => ({
   zIndex: 2,
   width: '100%',
@@ -56,7 +77,7 @@ function HeroFloatCard() {
         <Typography
           variant={isMobile ? 'h6' : 'h4'}
           fontWeight={isMobile ? 'normal' : 'bold'}
-          color={theme.palette.common.black}
+          color="#140a53"
           sx={{
             mb: 1,
             textTransform: 'uppercase',
@@ -64,17 +85,13 @@ function HeroFloatCard() {
         >
           {hero?.sub_title}
         </Typography>
-        <Typography
-          variant={isMobile ? 'h3' : 'h2'}
-          fontWeight="bold"
-          color={theme.palette.common.black}
-        >
+        <Typography variant={isMobile ? 'h3' : 'h2'} fontWeight="bold" color="#140a53">
           {hero?.title}
         </Typography>
         <Typography
           variant={isMobile ? 'caption' : 'h6'}
           fontWeight="normal"
-          color={theme.palette.common.black}
+          color="#140a53"
           sx={{
             width: { xs: '100%', md: '60%' },
             margin: '32px auto',
@@ -128,8 +145,12 @@ const loginbutton = (
     <Button
       size="large"
       variant="contained"
+      rel="noopener"
+      //  href={PATH_AUTH.login}
+      onClick={() => (window.location.href = 'https://app.Transup.com/login')}
       sx={{
-        backgroundColor: (theme) => theme.palette.common.black,
+        backgroundColor: '#2275b7',
+        // backgroundColor: (theme) => theme.palette.common.black,
         borderRadius: '2px',
       }}
       endIcon={<Iconify icon="ic:round-arrow-right-alt" />}
