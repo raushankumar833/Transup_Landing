@@ -37,6 +37,7 @@ export const PATH_PAGE = {
   components: '/components',
   termscondition: '/terms-condition',
   privacy: '/privacy',
+  refund: '/refund-policy',
 };
 
 export const PATH_DASHBOARD = {

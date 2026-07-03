@@ -63,6 +63,12 @@ const LINKS: { headline: string; children: LinkItem[] }[] = [
         target: '_blank',
         rel: 'noopener noreferrer',
       },
+      {
+        name: 'Refund Policy',
+        href: PATH_PAGE.refund,       
+        target: '_blank',
+        rel: 'noopener noreferrer',
+      }
     ],
   },
   {
