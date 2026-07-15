@@ -173,8 +173,7 @@ const Terms = () => {
                 <p className="landing-bg_para">
                   <strong>“Transup Online Service Private Limited Policies”</strong> shall mean and include the Terms of
                   Use, Privacy Policy, Grievance Policy and any other such terms and
-                  conditions/policies available and updated from time to time on the JITO FINTECH
-                  LLP.
+                  conditions/policies available and updated from time to time on the Transup Online Service Private Limited.
                 </p>
 
                 <p className="landing-bg_para">
