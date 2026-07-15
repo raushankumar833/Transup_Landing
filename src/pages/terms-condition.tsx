@@ -39,9 +39,9 @@ const Terms = () => {
                 <strong>(“Services”)</strong>. These Terms are legally binding and govern the use of
                 our website, our mobile application, our API and other properties collectively
                 called as the
-                <strong>“JITO FINTECH LLP”</strong> or
+                <strong>“Transup Online Service Private Limited”</strong> or
                 <strong> “Platform”</strong>
-                created by JITO FINTECH LLP, a company incorporated under the laws of India, with
+                created by Transup Online Service Private Limited, a company incorporated under the laws of India, with
                 its registered office at Ground Floor,Shop No.6,Madhuudan Complex,Radar Road,Gokul
                 Nagar,Jamnagar, Gujarat-361004
                 <strong>(“TRANSUP ” or “Company”)</strong>.
@@ -171,7 +171,7 @@ const Terms = () => {
                 </p>
 
                 <p className="landing-bg_para">
-                  <strong>“JITO FINTECH LLP Policies”</strong> shall mean and include the Terms of
+                  <strong>“Transup Online Service Private Limited Policies”</strong> shall mean and include the Terms of
                   Use, Privacy Policy, Grievance Policy and any other such terms and
                   conditions/policies available and updated from time to time on the JITO FINTECH
                   LLP.
@@ -206,7 +206,7 @@ const Terms = () => {
 
                 <p className="landing-bg_para">
                   <strong>“Services”</strong> shall mean the services provided by TRANSUP and
-                  various Service Providers to the Users utilizing the JITO FINTECH LLP including
+                  various Service Providers to the Users utilizing the Transup Online Service Private Limited including
                   but not limited to banking services, non-banking services and other such services
                   either by itself or through a Merchant.
                 </p>
@@ -220,7 +220,7 @@ const Terms = () => {
                 <p className="landing-bg_para">
                   <strong>“Users”</strong> shall mean individuals&nbsp;including all
                   body&nbsp;corporates, partnerships, limited liability partnerships, etc., who are
-                  availing TRANSUP services through the JITO FINTECH LLP.
+                  availing TRANSUP services through the Transup Online Service Private Limited.
                 </p>
               </div>
 
@@ -789,7 +789,7 @@ const Terms = () => {
                     the User or any third party, in the event,
                     <div className="landing-bg_para">
                       <p>
-                        (a) the User is in a breach of these Terms of Use or any JITO FINTECH LLP
+                        (a) the User is in a breach of these Terms of Use or any Transup Online Service Private Limited
                         Policies;
                       </p>
                       <p>
@@ -803,7 +803,7 @@ const Terms = () => {
                       </p>
                     </div>
                     <div className="landing-bg_para">
-                      Any suspension/termination of the User’s access to JITO FINTECH LLP and
+                      Any suspension/termination of the User’s access to Transup Online Service Private Limited and
                       Services shall be without prejudice to TRANSUP ’s right to exercise any other
                       remedy available to it under the applicable law.
                     </div>
