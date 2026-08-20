@@ -127,46 +127,9 @@
       "sub_title": "Simplifying banking with secure, fast, and reliable financial solutions for money transfers, AePS, UPI, CMS, and more, ensuring convenience, accessibility, and trust for everyone.",
       "list": [
         {
-          "icon": "fa6-solid:money-bill-transfer",
-          "title": "Money Transfer",
-          "intro": "Send money instantly with secure, fast, and reliable transfers, ensuring convenience and trust for individuals and businesses anytime, anywhere.",
-          "link": "/auth/login",
-          "bgcolor": "#E9F9F2",
-          "extra": "featured"
-        },
-        {
-          "icon": "fa6-solid:bolt",
-          "title": "Express Transfer",
-          "intro": "Experience fast, dependable financial transfers with security and ease, offering instant accessibility and convenience for personal or business needs.",
-          "link": "/auth/login",
-          "bgcolor": "#EFF5FA",
-          "extra": "most used"
-        },
-        {
-          "icon": "fa6-solid:chart-line",
-          "title": "Super Transfer",
-          "intro": "Handle high-value transactions securely and efficiently, with trusted accuracy and safeguards for individuals and businesses needing confidence anytime.",
-          "link": "/auth/login",
-          "bgcolor": "#F4F5E1"
-        },
-        {
-          "icon": "fa6-solid:fingerprint",
-          "title": "AePS",
-          "intro": "Aadhaar Enabled Payment System allows withdrawals, balance checks, and transfers using biometrics, ensuring safe, inclusive banking access in rural areas.",
-          "link": "/auth/login",
-          "bgcolor": "#F4F5E1"
-        },
-        {
           "icon": "fa6-solid:sack-dollar",
           "title": "CMS",
           "intro": "Cash Management Services streamline  payments, and liquidity with secure, efficient solutions, reducing risks and empowering enterprise financial operations.",
-          "link": "/auth/login",
-          "bgcolor": "#F4F5E1"
-        },
-        {
-          "icon": "fa6-solid:wallet",
-          "title": "UPI",
-          "intro": "Unified Payments Interface enables instant, secure transfers directly from bank accounts, offers convenience & accessibility across India for everyone.",
           "link": "/auth/login",
           "bgcolor": "#F4F5E1"
         }

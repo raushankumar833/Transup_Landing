@@ -165,7 +165,10 @@ function Description() {
       <m.div variants={varFade().in}>
         <Stack spacing={1.5} direction={{ xs: 'column-reverse', sm: 'row' }} sx={{ my: 5 }}>
           <Stack alignItems="center" spacing={2}>
-            <NextLink href="https://play.google.com/store/apps/details?id=com.transup.com&pcampaignid=web_share" passHref>
+            <NextLink
+              href="https://play.google.com/store/apps/details?id=com.transup.com&pcampaignid=web_share"
+              passHref
+            >
               <Button
                 color="inherit"
                 size="large"
@@ -254,14 +257,14 @@ function Content() {
           component={m.img}
           animate={{ y: ['0%', '100%'] }}
           transition={transition}
-          src={`/assets/images/home/hero_${isLight ? 'light' : 'dark'}_1.png`}
+          src={`/assets/images/home/hero_dark_3.png`}
           sx={{ position: 'absolute' }}
         />
         <Box
           component={m.img}
           animate={{ y: ['-100%', '0%'] }}
           transition={transition}
-          src={`/assets/images/home/hero_${isLight ? 'light' : 'dark'}_1.png`}
+          src={`/assets/images/home/hero_dark_3.png`}
           sx={{ position: 'absolute' }}
         />
       </Stack>
@@ -271,14 +274,14 @@ function Content() {
           component={m.img}
           animate={{ y: ['100%', '0%'] }}
           transition={transition}
-          src={`/assets/images/home/hero_${isLight ? 'light' : 'dark'}_1.png`}
+          src={`/assets/images/home/hero_dark_3.png`}
           sx={{ position: 'absolute' }}
         />
         <Box
           component={m.img}
           animate={{ y: ['0%', '-100%'] }}
           transition={transition}
-          src={`/assets/images/home/hero_${isLight ? 'light' : 'dark'}_1.png`}
+          src={`/assets/images/home/hero_dark_3.png`}
           sx={{ position: 'absolute' }}
         />
       </Stack>

@@ -134,11 +134,11 @@ const services = [
     description: 'Pay credit card, electricity, and utility bills instantly and securely.',
     icon: 'ic:round-receipt',
   },
-  {
-    title: 'Domestic Money Transfer',
-    description: 'Transfer money across India with ease and reliability.',
-    icon: 'mdi:bank-transfer',
-  },
+  // {
+  //   title: 'Domestic Money Transfer',
+  //   description: 'Transfer money across India with ease and reliability.',
+  //   icon: 'mdi:bank-transfer',
+  // },
   {
     title: 'Mobile & FASTag Recharge',
     description: 'Quick recharge for mobiles and FASTags anytime, anywhere.',
@@ -154,17 +154,17 @@ const services = [
     description: 'Hassle-free booking for IRCTC trains, buses, flights, and hotels.',
     icon: 'mdi:ticket-confirmation',
   },
-  {
-    title: 'AEPS ',
-    description:
-      'Secure cash withdrawal, balance inquiry, and transactions using Aadhaar authentication.',
-    icon: 'mdi:account-key',
-  },
-  {
-    title: 'UPI Payments',
-    description: 'Seamless and instant UPI transactions for customers and businesses.',
-    icon: 'mdi:qrcode-scan',
-  },
+  // {
+  //   title: 'AEPS ',
+  //   description:
+  //     'Secure cash withdrawal, balance inquiry, and transactions using Aadhaar authentication.',
+  //   icon: 'mdi:account-key',
+  // },
+  // {
+  //   title: 'UPI Payments',
+  //   description: 'Seamless and instant UPI transactions for customers and businesses.',
+  //   icon: 'mdi:qrcode-scan',
+  // },
   {
     title: 'Micro ATM (mATM)',
     description: 'Enable cash withdrawal and balance inquiry using debit cards at retail points.',
