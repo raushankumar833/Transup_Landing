@@ -148,7 +148,7 @@ function BillingCardComponent() {
                   {process.env.REACT_APP_PROJECT_TITLE}
                 </Typography>
                 <Typography variant="h4" fontWeight="bold" color="#140a53">
-                  DMT
+                  {/* DMT */}
                 </Typography>
               </div>
             </Stack>
