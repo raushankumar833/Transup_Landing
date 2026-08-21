@@ -165,8 +165,7 @@ function BillingCardComponent() {
 
             <Stack spacing={2} sx={{ mt: { xs: 2, md: 0 }, ml: 3 }}>
               <Typography variant="h6" fontWeight="400" color="#140A53">
-                Effortless financial transactions made seamless with our streamlined domestic money
-                transfer service.
+                Effortless financial transactions
               </Typography>
 
               <Button
