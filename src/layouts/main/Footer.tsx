@@ -65,17 +65,17 @@ const LINKS: { headline: string; children: LinkItem[] }[] = [
       },
       {
         name: 'Refund Policy',
-        href: PATH_PAGE.refund,       
+        href: PATH_PAGE.refund,
         target: '_blank',
         rel: 'noopener noreferrer',
-      }
+      },
     ],
   },
   {
     headline: 'Contact',
     children: [
       { name: 'sales@transup.in', href: 'mailto:sales@transup.in' },
-      { name: '8200530789,9913398900', href: 'tel:8200530789,9913398900' },
+      { name: '9913398900', href: 'tel:9913398900' },
 
       {
         name: 'Ground Floor,Shop No.6,Madhuudan Complex,Radar Road,Gokul Nagar,Jamnagar, Gujarat-361004',
