@@ -42,9 +42,9 @@ export default function AboutVision() {
             sx={{ fontWeight: 300, color: '#140a53' }}
             variant="h6"
           >
-            We provide seamless solutions for bill payments, money transfers, and digital
-            transactions. Our platform is designed to save you time, reduce complexity, and ensure
-            every payment is fast, secure, and reliable.
+            We provide seamless solutions for bill payments and digital transactions. Our platform
+            is designed to save you time, reduce complexity, and ensure every payment is fast,
+            secure, and reliable.
             <br />
             <br />
             With years of experience in financial technology, we continue to innovate and bring

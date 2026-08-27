@@ -88,7 +88,7 @@
           {
             "icon": "/assets/illustrations/partner_why.jpg",
             "title": "Become a true solution provider",
-            "intro": "Become an Aatma Nirbhar Dukaandar and earn an additional Rs.16,000 every month. With Transup, you are not just selling services—you are providing complete solutions to your customers. Our platform is Easy, Fast & Secure to use, empowering you to deliver financial services, bill payments, and money transfers right from your shop, creating stronger customer relationships and ensuring repeat business.",
+            "intro": "Become an Aatma Nirbhar Dukaandar and earn an additional Rs.16,000 every month. With Transup, you are not just selling services—you are providing complete solutions to your customers. Our platform is Easy, Fast & Secure to use, empowering you to deliver financial services, bill payments, and right from your shop, creating stronger customer relationships and ensuring repeat business.",
             "grid_direction": "row"
           },
           {
@@ -124,7 +124,7 @@
   "services": [
     {
       "title": "Banking",
-      "sub_title": "Simplifying banking with secure, fast, and reliable financial solutions for money transfers, AePS, UPI, CMS, and more, ensuring convenience, accessibility, and trust for everyone.",
+      "sub_title": "Simplifying banking with secure, fast, and reliable financial solutions for AePS, UPI, CMS, and more, ensuring convenience, accessibility, and trust for everyone.",
       "list": [
         {
           "icon": "fa6-solid:sack-dollar",

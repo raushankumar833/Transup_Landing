@@ -70,7 +70,7 @@ export default function GeneralAppPage() {
           <Grid item xs={12} md={8}>
             <AppWelcome
               title={`Welcome back! \n ${user?.name}`}
-              description="Enjoy our rapid and secure money transfer services"
+              description="Enjoy our rapid and secure money services"
               img={
                 <SeoIllustration
                   sx={{
